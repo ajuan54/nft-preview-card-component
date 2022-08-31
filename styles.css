@@ -1,0 +1,117 @@
+
+/* ### Primary
+
+-- Softblue: hsl(215, 51%, 70%)
+-- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+-- Very dark blue (main BG): hsl(217, 54%, 11%)
+-- Very dark blue (card BG): hsl(216, 50%, 16%)
+-- Very dark blue (line): hsl(215, 32%, 27%)
+-- White: hsl(0, 0%, 100%) */
+
+
+body{
+    font-size: 18px;
+    text-align: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.image{
+    position: relative;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.overlay{
+    position:absolute;
+    opacity: 0;
+    top:0;
+    bottom:0;
+    padding-top: 100px;
+    margin-top: 120px;
+    margin-left:20px;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: hsl(178, 100%, 50%);
+    
+}
+.image:hover, .overlay:hover{
+    opacity: .5;
+    
+}
+.card{
+   display:flex;
+   justify-content: center; 
+   align-items: center;
+   margin-top: 100px;
+}
+.main{
+    background-color:hsl(216, 50%, 16%) ;
+    width: 290px;
+    border-radius: 10px;
+    
+}
+#title{
+    color:hsl(0, 0%, 100%);
+    font-size: 15px;
+    text-align:start;
+    margin-left: 20px;
+}
+p, footer{
+    color:hsl(215, 51%, 70%);
+
+}
+#eth{
+    color:hsl(178, 100%, 50%);
+    padding-right: 50px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+#info{
+    display:inline-flex;
+    font-size: 14px;
+}
+hr{
+    width: 250px;
+    border: 1px solid hsl(215, 32%, 27%);
+    padding: 0;
+    margin-top: 0
+}
+.icon{
+    height: 15px;
+    padding: 13px 5px;
+}
+
+.clock{
+    padding-left: 25px;
+}
+
+.avatar{
+    width: 28px; 
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 30px;
+}
+.avatarInfo{
+    font-size: 14px;
+    display: flex;
+    margin-left: 18px;
+}
+.avatarInfo p {
+    padding-left: 5px;
+    padding-bottom: 15px;
+    margin: 6px;
+}
+span{
+    color:hsl(178, 100%, 50%);
+}
+footer{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+a {
+    color:hsl(178, 100%, 50%);
+}
