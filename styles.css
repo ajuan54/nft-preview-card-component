@@ -11,7 +11,7 @@
 -- Very dark blue (line): hsl(215, 32%, 27%)
 -- White: hsl(0, 0%, 100%) */
 
-
+@media (min-width: 375px) and (max-width: 1740px){
 body{
     font-size: 18px;
     text-align: center;
@@ -115,3 +115,4 @@ footer{
 a {
     color:hsl(178, 100%, 50%);
 }
+ }
